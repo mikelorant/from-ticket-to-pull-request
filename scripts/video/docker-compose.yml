@@ -1,0 +1,5 @@
+services:
+  demo:
+    build: .
+    stdin_open: true
+    tty: true
