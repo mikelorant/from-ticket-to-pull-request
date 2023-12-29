@@ -19,3 +19,7 @@ layout: image-right
 # Breaking it down
 
 <toc />
+
+---
+src: ./pages/before-you-start.md
+---
