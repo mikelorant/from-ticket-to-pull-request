@@ -27,3 +27,7 @@ src: ./pages/before-you-start.md
 ---
 src: ./pages/do-the-change.md
 ---
+
+---
+src: ./pages/fix-your-mistakes.md
+---
