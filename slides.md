@@ -31,3 +31,7 @@ src: ./pages/do-the-change.md
 ---
 src: ./pages/fix-your-mistakes.md
 ---
+
+---
+src: ./pages/prepare-the-commit.md
+---
