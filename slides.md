@@ -23,3 +23,7 @@ layout: image-right
 ---
 src: ./pages/before-you-start.md
 ---
+
+---
+src: ./pages/do-the-change.md
+---
