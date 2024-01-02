@@ -78,3 +78,20 @@ flowchart
 ```
 
 </div>
+
+---
+layout: full
+preload: false
+---
+
+<style>
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+</style>
+
+<video autoplay controls loop>
+  <source src="/videos/before-you-start.webm" type="video/webm">
+</video>
