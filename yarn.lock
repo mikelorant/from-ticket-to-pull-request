@@ -447,10 +447,52 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/entypo@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@iconify-json/entypo/-/entypo-1.1.8.tgz#84489e280a12f3fc4d1890f8ad4400326fdef6d9"
+  integrity sha512-Bp7oLs6/7sZtCiBGU4oIwjqvsP3Ii/AusOJiaSYsDAhTGxwgrOl41UbKPrIN563S/r8lESJa25EBgHLdn4zZrg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/fa6-solid@^1.1.20":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fa6-solid/-/fa6-solid-1.1.20.tgz#5211834a2a99f12347ba306d8915d2783019d995"
+  integrity sha512-99P9zOacNS56MNNT7Mzih2Loe3jzwNFKFBOiVh+kF+4D+AHW5zyksyvMizIgGu2cizFz6npaATlCtl3E5Zfjbw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/fa@^1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fa/-/fa-1.1.8.tgz#23c17b822646768496bd4020073775a194783892"
+  integrity sha512-he23ZsuDxA6Hx7rnrEpSJnmu7t7RtG/SbrENZhMSPiZ4bNRGHjyPZimtOy10k2/nfwNsW57ECDsO5eK0BkcoMg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/grommet-icons@^1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@iconify-json/grommet-icons/-/grommet-icons-1.1.10.tgz#626820800c350e830fbd014b80c4cd6b8be0e007"
+  integrity sha512-0BZ7E0qAhrAUjduWYci/ys29vVtp5o6uNZK+7Df4bf02nO8xGi0xawn3VbqnxIq8T4fEcOMt043Zlo1mH7dnqg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/pajamas@^1.1.40":
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/@iconify-json/pajamas/-/pajamas-1.1.40.tgz#df99903ec51c9b521f2500fcb75c54e63d81a8a4"
+  integrity sha512-sU1dr5nNYhM4ZTKvenT5yO0vfANYtKrjULmhMWOhOQsyws06UKkfE7130Fnyn7NFpEbBgEJPy1l/6o/2wM0csw==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.9":
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.9.tgz#1559cb3d81919ae813ff432d4d6a5040f101743b"
   integrity sha512-LcKe7rSp4zm1Rpafsv03DVdta65ePmPMH7IHLErD8nFLL2jNAtt/8CUAJWbaqYztE3V4wEg21az09Ur6yo9CXw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/radix-icons@^1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@iconify-json/radix-icons/-/radix-icons-1.1.14.tgz#3cdab4e371e5dbabae8ab6fa433e2863b5e2ebd5"
+  integrity sha512-AYBOyhnJ2hXlg3aIn8Ekphrr7zHRyz1l8x6bidM3PDUuTL+aRt8r6cpCvN3GeuTHy2JOhmihbVJRF0bt2FF7Ag==
   dependencies:
     "@iconify/types" "*"
 

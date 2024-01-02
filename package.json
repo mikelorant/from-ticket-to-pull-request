@@ -13,5 +13,13 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "devDependencies": {
+    "@iconify-json/entypo": "^1.1.8",
+    "@iconify-json/fa": "^1.1.8",
+    "@iconify-json/fa6-solid": "^1.1.20",
+    "@iconify-json/grommet-icons": "^1.1.10",
+    "@iconify-json/pajamas": "^1.1.40",
+    "@iconify-json/radix-icons": "^1.1.14"
+  }
 }
