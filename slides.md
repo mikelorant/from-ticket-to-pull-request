@@ -35,3 +35,7 @@ src: ./pages/fix-your-mistakes.md
 ---
 src: ./pages/prepare-the-commit.md
 ---
+
+---
+src: ./pages/create-the-pull-request.md
+---
