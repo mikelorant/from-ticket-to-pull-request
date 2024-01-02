@@ -3,3 +3,12 @@ services:
     build: .
     stdin_open: true
     tty: true
+    depends_on:
+      - server
+
+  server:
+    image: gitea/gitea:1.20
+    environment:
+      INSTALL_LOCK: true
+    ports:
+      - 3000:3000
