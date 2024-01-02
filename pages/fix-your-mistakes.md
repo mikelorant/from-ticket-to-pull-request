@@ -56,8 +56,18 @@ Oops...
 
 <br />
 
-> I have some other changes that don't belong with the previous commit.
+> I have a change that I don't want to include with the previous commit.
 ```shell
 git add -p
 git commit
 ```
+
+<div class="absolute bottom-20px">
+
+<pajamas-bulb /> This workflow may be helpful when you want to preserve previous changes as you iterate towards the final revision.<br />
+
+<br />
+
+<ph-warning-bold /> Use this method when the branch is shared with other users and the previous commit has already been pushed.
+
+</div>
