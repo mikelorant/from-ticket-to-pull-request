@@ -53,14 +53,29 @@ pick 2 feature1_fix
 </v-click>
 
 ---
-background: https://images.unsplash.com/photo-1516382799247-87df95d790b7
 layout: center
 ---
 
-"Why is this code here?"
+<div class="grid grid-cols-2">
 
-The commit message is the one piece of <br />
+<div class="my-auto">
+
+## "Why is this code here?"
+
+The commit message is the one piece of
 documentation most likely to survive.
+
+</div>
+
+<div>
+
+![Git Commit](https://imgs.xkcd.com/comics/git_commit.png)
+
+[xkcd.com/1296](https://xkcd.com/1296/)
+
+</div>
+
+</div>
 
 ---
 
