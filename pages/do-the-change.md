@@ -46,6 +46,15 @@ gitGraph
 ```
 
 ---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/do-the-change-feature1.webm" type="video/webm">
+</video>
+
+---
 layout: two-cols
 ---
 
@@ -80,6 +89,15 @@ gitGraph
 ```
 
 </div>
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/do-the-change-feature2.webm" type="video/webm">
+</video>
 
 ---
 layout: two-cols
@@ -199,3 +217,12 @@ gitGraph
   commit
   checkout main
 ```
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/do-the-change-new-commits.webm" type="video/webm">
+</video>
