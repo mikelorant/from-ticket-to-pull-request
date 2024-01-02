@@ -6,6 +6,7 @@ layout: section
 
 ---
 layout: image-right
+hideInToc: true
 image: https://images.unsplash.com/photo-1533374206871-33b8f07c216c
 ---
 
@@ -18,6 +19,18 @@ Oops...
 git add -p
 git commit --amend --no-edit
 ```
+
+<div class="absolute bottom-20px">
+
+<pajamas-bulb /> Add your own command `git oops`.
+
+```ini
+# Update ~/.config/git/config or ~/.gitconfig
+[alias]
+    oops = commit --amend --no-edit
+```
+
+</div>
 
 ---
 layout: image-right
