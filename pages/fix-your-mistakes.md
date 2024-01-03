@@ -43,7 +43,8 @@ Oops...
 
 > I accidentally added changes that shouldn't be included in the previous commit.
 ```shell
-git restore --source=main --staged --patch
+git restore --source=main --patch
+git add -p
 git commit --amend --no-edit
 ```
 
