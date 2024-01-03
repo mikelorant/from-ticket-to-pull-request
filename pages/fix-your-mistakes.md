@@ -33,6 +33,15 @@ git commit --amend --no-edit
 </div>
 
 ---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/fix-your-mistakes-amend.webm" type="video/webm">
+</video>
+
+---
 layout: image-right
 image: https://images.unsplash.com/photo-1591014827159-2e158ceac55d
 ---
@@ -47,6 +56,15 @@ git restore --source=main --patch
 git add -p
 git commit --amend --no-edit
 ```
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/fix-your-mistakes-restore.webm" type="video/webm">
+</video>
 
 ---
 layout: image-right
@@ -72,3 +90,12 @@ git commit
 <ph-warning-bold /> Use this method when the branch is shared with other users and the previous commit has already been pushed.
 
 </div>
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/fix-your-mistakes-commit.webm" type="video/webm">
+</video>
