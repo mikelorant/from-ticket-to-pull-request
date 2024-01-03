@@ -1,6 +1,5 @@
 Output ../../public/videos/do-the-change-new-commits.webm
 
-Set FontSize 18
 Set Width 1050
 Set Height 700
 
