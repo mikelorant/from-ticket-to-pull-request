@@ -53,6 +53,15 @@ pick 2 feature1_fix
 </v-click>
 
 ---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/prepare-the-commit-squash.webm" type="video/webm">
+</video>
+
+---
 layout: center
 ---
 
@@ -113,6 +122,15 @@ Part of JIRA-123
 <div class="absolute left-470px top-426px">Ticket</div>
 
 </v-click>
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls loop>
+  <source src="/videos/prepare-the-commit-update-message.webm" type="video/webm">
+</video>
 
 ---
 hideInToc: true
