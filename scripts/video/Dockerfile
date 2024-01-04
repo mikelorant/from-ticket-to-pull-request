@@ -10,13 +10,18 @@ RUN apk add --no-cache \
 
 RUN ln -s /usr/share/git-core/git-prompt.sh /etc/profile.d/
 
+ENV EDITOR vim
 ENV GIT_PS1_SHOWDIRTYSTATE 1
 ENV GIT_PS1_SHOWSTASHSTATE 1
 ENV GIT_PS1_SHOWUNTRACKEDFILES 1
 ENV GIT_PS1_SHOWUPSTREAM auto
 ENV GIT_PS1_SHOWCOLORHINTS 1
 ENV PROMPT_COMMAND '__git_ps1 "\w" " \\\$ "'
-ENV VIMINIT "set nofixendofline"
+
+COPY <<EOF /etc/vim/vimrc.local
+set nofixendofline
+set textwidth=72
+EOF
 
 RUN git config --global user.name "John Doe"
 RUN git config --global user.email johndoe@example.com
