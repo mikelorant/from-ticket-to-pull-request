@@ -6,6 +6,7 @@ editor: false
 fonts:
   mono: JetBrains Mono
 hideInToc: true
+class: text-center
 ---
 
 # From Ticket To Pull Request
