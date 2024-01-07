@@ -11,14 +11,8 @@ hideInToc: true
 # From Ticket To Pull Request
 
 ---
-hideInToc: true
-image: https://images.unsplash.com/photo-1612933510543-5b442296703b
-layout: image-right
+src: ./pages/intro.md
 ---
-
-# Breaking it down
-
-<toc />
 
 ---
 src: ./pages/before-you-start.md
