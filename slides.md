@@ -39,3 +39,7 @@ src: ./pages/create-the-pull-request.md
 ---
 src: ./pages/artificial-intelligence.md
 ---
+
+---
+src: ./pages/quotes.md
+---
