@@ -50,7 +50,7 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/do-the-change-feature1.webm" type="video/webm">
 </video>
 
@@ -95,7 +95,7 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/do-the-change-feature2.webm" type="video/webm">
 </video>
 
@@ -223,6 +223,6 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/do-the-change-new-commits.webm" type="video/webm">
 </video>

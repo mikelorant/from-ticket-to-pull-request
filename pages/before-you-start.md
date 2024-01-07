@@ -92,6 +92,6 @@ video {
 }
 </style>
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/before-you-start.webm" type="video/webm">
 </video>

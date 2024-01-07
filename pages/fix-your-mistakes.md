@@ -37,7 +37,7 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/fix-your-mistakes-amend.webm" type="video/webm">
 </video>
 
@@ -62,7 +62,7 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/fix-your-mistakes-restore.webm" type="video/webm">
 </video>
 
@@ -96,6 +96,6 @@ layout: full
 preload: false
 ---
 
-<video autoplay controls loop>
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
   <source src="/videos/fix-your-mistakes-commit.webm" type="video/webm">
 </video>
