@@ -117,24 +117,24 @@ git push
 
 Check the output for errors and open the link provided.
 
-```text
+```git
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 690 bytes | 345.00 KiB/s, done.
+Writing objects: 100% (3/3), 683 bytes | 683.00 KiB/s, done.
 Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote:
-remote: Create a new pull request for 'feat/JIRA-123_feature1':
-remote:   http://server/username/repository/compare/main...feat/JIRA-123_feature1
+remote: Create a new pull request for 'chore/JIRA-123_update-deps':
+remote:   http://server/company/repository/compare/main...chore/JIRA-123_update-deps
 remote:
-To http://server:3000/username/repository.git
- * [new branch]      feat/JIRA-123_feature1 -> feat/JIRA-123_feature1
-branch 'feat/JIRA-123_feature1' set up to track 'origin/feat/JIRA-123_feature1'.
+To http://server/company/repository.git
+ * [new branch]      chore/JIRA-123_update-deps -> chore/JIRA-123_update-deps
+branch 'chore/JIRA-123_update-deps' set up to track 'origin/chore/JIRA-123_update-deps'.
 ```
 
-<Arrow x1="710" y1="420" x2="660" y2="420" color="green"/>
+<Arrow x1="730" y1="420" x2="680" y2="420" color="green"/>
 
-<div class="absolute right-170px bottom-120px">Open link</div>
+<div class="absolute right-150px bottom-120px">Open link</div>
 
 </v-click>
 
@@ -157,21 +157,21 @@ transition: fade-out
 
 <img src="/images/server-pull-request-open.png" class="rounded" width="400" />
 
-<Arrow x1="270" y1="110" x2="320" y2="110" color="green"/>
+<Arrow x1="270" y1="95" x2="320" y2="95" color="green"/>
 
-<div class="absolute left-160px top-95px text-right">
+<div class="absolute left-160px top-80px text-right">
 Prefilled title
 </div>
 
-<Arrow x1="270" y1="220" x2="320" y2="220" color="green"/>
+<Arrow x1="270" y1="210" x2="320" y2="210" color="green"/>
 
-<div class="absolute left-100px top-205px text-right">
+<div class="absolute left-100px top-195px text-right">
 Prefilled description
 </div>
 
-<Arrow x1="725" y1="310" x2="560" y2="310" color="green"/>
+<Arrow x1="725" y1="300" x2="560" y2="300" color="green"/>
 
-<div class="absolute right-90px top-295px">
+<div class="absolute right-90px top-285px">
 Create pull request
 </div>
 
@@ -192,4 +192,4 @@ default reviewers or add them when running the pull request check.
 layout: center
 ---
 
-<img src="/images/server-pull-request-create.png" class="rounded" width="620" />
+<img src="/images/server-pull-request-create.png" class="rounded" width="640" />
