@@ -475,6 +475,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/noto@^1.1.18":
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/@iconify-json/noto/-/noto-1.1.18.tgz#7b0062bd13d9c72e44221be56d09aeb68599d1fc"
+  integrity sha512-1yA0n/oAbzZ8KWAu71Qzz1mSylfZ5j9lXgAR5iRwrpSo2SxB3NtHPAfYTbW4l6JsjkNXbpfYE/s9uUTWmfF9xQ==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/pajamas@^1.1.40":
   version "1.1.40"
   resolved "https://registry.yarnpkg.com/@iconify-json/pajamas/-/pajamas-1.1.40.tgz#df99903ec51c9b521f2500fcb75c54e63d81a8a4"

@@ -39,3 +39,7 @@ src: ./pages/prepare-the-commit.md
 ---
 src: ./pages/create-the-pull-request.md
 ---
+
+---
+src: ./pages/artificial-intelligence.md
+---
