@@ -12,7 +12,8 @@ layout: image-right
 
 <div v-click="[1,2]" class="absolute top-250px">
 
-## A well written pull request makes it easier.
+## A well written pull request
+## makes it easier.
 
 </div>
 
@@ -26,7 +27,7 @@ layout: image-right
 
 <div v-click="3" class="absolute top-250px">
 
-## How do I make a high quality
+## How do I make a well written
 ## pull requests?
 
 </div>
@@ -39,7 +40,7 @@ layout: image-right
 
 <div class="absolute top-180px">
 
-# Breaking it down
+# Break it down
 
 <toc />
 
