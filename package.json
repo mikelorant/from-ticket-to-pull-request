@@ -10,8 +10,8 @@
   "dependencies": {
     "@slidev/cli": "^0.46.1",
     "@slidev/theme-apple-basic": "^0.20.0",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3"
   },
   "version": "0.0.0",
   "devDependencies": {
