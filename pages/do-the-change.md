@@ -180,7 +180,7 @@ git rebase -i main
 
 Editor will load.
 
-```git {all|1,14}
+```git-rebase {all|1,14}
 pick 1 feature1
 pick 2 feature2
 

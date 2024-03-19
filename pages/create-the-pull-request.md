@@ -33,7 +33,7 @@ git show -p
 
 This will show the commit with the included changes.
 
-```git
+```git-commit
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon@gee-mail.com>
 Date:   Mon Mar 17 21:52:11 2008 -0700
@@ -117,7 +117,7 @@ git push
 
 Check the output for errors and open the link provided.
 
-```git
+```text
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Compressing objects: 100% (3/3), done.

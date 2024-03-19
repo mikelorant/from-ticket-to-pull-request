@@ -30,7 +30,7 @@ git rebase -i main
 
 Editor will load.
 
-```git {all|2,10-11}
+```git-rebase {all|2,10-11}
 pick 1 feature1
 pick 2 feature1_fix
 
