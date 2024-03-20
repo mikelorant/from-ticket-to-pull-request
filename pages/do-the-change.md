@@ -78,7 +78,7 @@ git commit
 <div v-after>
 
 ```mermaid {scale: 0.8}
-%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
+%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false, 'parallelCommits': true}} }%%
 
 gitGraph
   commit
@@ -164,27 +164,7 @@ git pull
 
 </v-click>
 
-::right::
-
-```mermaid {scale: 0.8}
-%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
-
-gitGraph
-  commit
-  commit
-  branch feature1
-  commit
-  branch feature2
-  commit
-  checkout main
-  commit
-```
-
----
-layout: two-cols
----
-
-> What should I do if there are new commits on the `main` branch?
+<v-click>
 
 Rebase `feature1` to `main`.
 
@@ -193,78 +173,57 @@ git switch feature1
 git rebase main
 ```
 
-::right::
-
-```mermaid {scale: 0.8}
-%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
-gitGraph
-  commit
-  commit
-  branch feature2 order: 3
-  commit
-  commit
-  checkout main
-  commit
-  branch feature1
-  commit
-
-```
-
----
-layout: two-cols
-hideInToc: true
----
-
-> What should I do if there are new commits on the `main` branch?
-
-Rebase `feature2` to `main`.
-
-```shell
-git switch feature2
-git rebase -i main
-```
-
-<v-click>
-
-Editor will load.
-
-```git-rebase {all|1,14}
-pick 1 feature1
-pick 2 feature2
-
-# Rebase 0..2 onto 0 (2 commands)
-#
-# Commands:
-# p, pick <commit> = use commit
-# r, reword <commit> = use commit, but edit the commit message
-# s, squash <commit> = use commit, but meld into previous commit
-# f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
-#                    commit's log message, unless -C is used, in which case
-#                    keep only this commit's message; -c is same as -C but
-#                    opens the editor
-# d, drop <commit> = remove commit
-```
-
-<Arrow x1="175" y1="213" x2="125" y2="213" color="red"/>
-<Arrow x1="28" y1="510" x2="28" y2="460" color="red"/>
-
 </v-click>
 
 ::right::
 
+<div v-click="[0, 1]" class="absolute">
+
 ```mermaid {scale: 0.8}
-%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
+%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false, 'parallelCommits': true}} }%%
+
 gitGraph
-  commit
   commit
   commit
   branch feature1
   commit
   checkout main
-  branch feature2
+```
+
+</div>
+
+<div v-click="[1, 2]" class="absolute">
+
+```mermaid {scale: 0.8}
+%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false, 'parallelCommits': true}} }%%
+
+gitGraph
+  commit
+  commit
+  branch feature1
   commit
   checkout main
+  commit
+  commit
 ```
+
+</div>
+
+<div v-click="2" class="absolute">
+
+```mermaid {scale: 0.8}
+%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
+gitGraph
+  commit
+  commit
+  checkout main
+  commit
+  commit
+  branch feature1
+  commit
+```
+
+</div>
 
 ---
 layout: full
