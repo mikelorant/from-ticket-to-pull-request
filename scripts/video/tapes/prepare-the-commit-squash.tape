@@ -20,8 +20,6 @@ Ctrl+L Sleep 0.25
 
 Show Sleep 1
 
-Type "git fetch origin main:main" Sleep 1 Enter Sleep 3
-
 Type "git rebase -i main" Sleep 1 Enter Sleep 3
 Down                                    Sleep 1
 Type "cw"                               Sleep 1

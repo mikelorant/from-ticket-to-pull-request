@@ -22,7 +22,6 @@ hideInToc: true
 Squash the commits.
 
 ```shell
-git fetch origin main:main
 git rebase -i main
 ```
 
