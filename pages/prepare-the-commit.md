@@ -25,11 +25,11 @@ Squash the commits.
 git rebase -i main
 ```
 
-<v-click>
+<div v-click="1">
 
 Editor will load.
 
-```git-rebase {all|2,10-11}
+```git-rebase {all|2,10-11}{at:2}
 pick 1 feature1
 pick 2 feature1_fix
 
@@ -46,8 +46,12 @@ pick 2 feature1_fix
 # d, drop <commit> = remove commit
 ```
 
-<Arrow x1="260" y1="240" x2="210" y2="240" color="red"/>
-<Arrow x1="125" y1="425" x2="100" y2="400" color="red"/>
+</div>
+
+<v-click at="2">
+
+<Arrow x1="260" y1="222" x2="210" y2="222" color="red"/>
+<Arrow x1="125" y1="405" x2="100" y2="380" color="red"/>
 
 </v-click>
 
