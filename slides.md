@@ -7,6 +7,7 @@ fonts:
   mono: JetBrains Mono
 hideInToc: true
 class: text-center
+download: true
 ---
 
 # From Ticket To Pull Request

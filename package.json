@@ -5,7 +5,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-clicks"
   },
   "dependencies": {
     "@slidev/cli": "^0.48.3",
@@ -21,7 +21,8 @@
     "@iconify-json/grommet-icons": "^1.1.10",
     "@iconify-json/noto": "^1.1.18",
     "@iconify-json/pajamas": "^1.1.40",
-    "@iconify-json/radix-icons": "^1.1.14"
+    "@iconify-json/radix-icons": "^1.1.14",
+    "playwright-chromium": "^1.42.1"
   },
   "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781"
 }
