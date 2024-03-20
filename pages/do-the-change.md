@@ -105,6 +105,52 @@ preload: false
 layout: two-cols
 ---
 
+> What if I have another change that requires the previous change?
+
+<v-click>
+
+Create another feature branch from the `feature1` branch.
+
+```shell
+git switch feature1
+git switch -c feature2
+git add -p
+git commit
+```
+
+</v-click>
+
+::right::
+
+<div v-after>
+
+```mermaid {scale: 0.8}
+%%{init: {'theme': 'base', 'gitGraph': {'showCommitLabel': false}} }%%
+
+gitGraph
+  commit
+  commit
+  branch feature1
+  commit
+  branch feature2
+  commit
+```
+
+</div>
+
+---
+layout: full
+preload: false
+---
+
+<video autoplay controls onloadstart="this.playbackRate = 0.67;">
+  <source src="/videos/do-the-change-feature1-feature2.webm" type="video/webm">
+</video>
+
+---
+layout: two-cols
+---
+
 > What should I do if there are new commits on the `main` branch?
 
 <v-click>
