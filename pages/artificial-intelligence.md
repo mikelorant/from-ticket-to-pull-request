@@ -15,7 +15,7 @@ layout: center
 
 <Arrow x1="150" y1="250" x2="210" y2="250" color="green"/>
 
-<div class="absolute left-30px top-235px text-right">
+<div class="absolute left-30px top-220px text-right">
 
 AI Generated <br />
 <img src="/images/wobblyloops-no-way-wow.gif" width="100" />
