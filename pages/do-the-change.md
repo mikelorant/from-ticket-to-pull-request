@@ -58,13 +58,14 @@ preload: false
 layout: two-cols
 ---
 
-> What if I have other changes?
+> What if I have another change?
 
 <v-click>
 
-Create another feature branch.
+Create another feature branch from the `main` branch.
 
 ```shell
+git switch main
 git switch -c feature2
 git add -p
 git commit
@@ -84,6 +85,7 @@ gitGraph
   commit
   branch feature1
   commit
+  checkout main
   branch feature2
   commit
 ```
